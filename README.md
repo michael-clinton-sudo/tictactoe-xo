@@ -1,20 +1,79 @@
-# Tic Tac Toe
 
-## Overview
+# ❌⭕ Tic Tac Toe – React Edition
 
-The Tic Tac Toe game in React.
+A simple, fun, and interactive Tic Tac Toe game built with React and Sass.
 
-Stack:
+---
 
-- React
-- Styles with Sass
+## 🚀 Tech Stack
 
-## Develop locally
+- ⚛️ **React** – Component-based UI
+- 🎨 **Sass** – For styling
+- 🛠️ **ESLint** – Linting for clean code
+- 🧹 **Prettier** – Code formatting
 
-1. Clone this repo by running `git clone https://github.com/shelooks16/tictactoe.git`
-2. Install dependencies by running `npm install`
-3. Run `npm run start`
+---
 
-## Deployment
+## 📁 Project Structure
 
-Deployed to surge.sh -> https://surge.sh/help/getting-started-with-surge
+```
+tictactoe-xo/
+├── .eslintrc
+├── .gitignore
+├── .prettierrc
+├── index.html
+├── package-lock.json
+├── package.json
+├── README.md
+├── src/
+│   ├── App.jsx
+│   ├── helpers.js
+│   ├── index.jsx
+│   ├── components/
+│   │   ├── Board.jsx
+│   │   ├── History.jsx
+│   │   ├── Square.jsx
+│   │   └── StatusMessage.jsx
+│   └── styles/
+│       └── root.scss
+```
+
+---
+
+## 🧑‍💻 Develop Locally
+
+Follow these steps to run the project locally:
+
+1. 📥 Clone the repository  
+   ```bash
+   git clone https://github.com/shelooks16/tictactoe.git
+   cd tictactoe
+   ```
+
+2. 📦 Install dependencies  
+   ```bash
+   npm install
+   ```
+
+3. ▶️ Start the development server  
+   ```bash
+   npm start
+   ```
+
+---
+
+## 🚢 Deployment
+
+This app can be deployed on [Surge](https://surge.sh/help/getting-started-with-surge):
+
+```bash
+npm install --global surge
+npm run build
+surge ./build your-subdomain.surge.sh
+```
+
+---
+
+## 📄 License
+
+MIT License. Use freely, and contributions are welcome!
